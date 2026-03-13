@@ -1,0 +1,358 @@
+{
+  "hospital_tech_stack": {
+    "ehr_clinical": [
+      {
+        "vendor": "Epic",
+        "products": ["Epic EHR", "MyChart", "Hyperspace", "Beaker", "Willow", "Cupid", "Cadence", "Resolute"],
+        "aliases": ["Epic Systems", "Epic EMR"],
+        "category": "EHR"
+      },
+      {
+        "vendor": "Oracle Cerner",
+        "products": ["Cerner Millennium", "PowerChart", "FirstNet", "Soarian"],
+        "aliases": ["Cerner", "Oracle Health"],
+        "category": "EHR"
+      }
+    ],
+    "network_security": [
+      {
+        "vendor": "Palo Alto Networks",
+        "products": ["PAN-OS", "Prisma", "GlobalProtect", "Cortex", "WildFire"],
+        "aliases": ["Palo Alto", "PAN", "PANW"],
+        "category": "Firewall"
+      },
+      {
+        "vendor": "Cisco",
+        "products": ["Cisco ASA", "Cisco Firepower", "Cisco ISE", "Cisco Switch", "Cisco Router", "Cisco Webex", "Cisco SD-WAN"],
+        "aliases": ["Cisco Systems"],
+        "category": "Network"
+      },
+      {
+        "vendor": "Aruba",
+        "products": ["Aruba Wireless", "ArubaOS", "ClearPass", "Aruba AP"],
+        "aliases": ["Aruba Networks", "HPE Aruba"],
+        "category": "Wireless"
+      }
+    ],
+    "enterprise_it": [
+      {
+        "vendor": "Microsoft",
+        "products": ["Microsoft 365", "Office 365", "Exchange Online", "SharePoint", "Teams", "OneDrive", "Azure AD", "Entra ID", "Windows Server", "Windows 10", "Windows 11"],
+        "aliases": ["M365", "MSFT", "Microsoft Office"],
+        "category": "Productivity"
+      },
+      {
+        "vendor": "Dell Technologies",
+        "products": ["Dell PowerEdge", "Dell EMC", "Dell Storage", "Dell VxRail", "Dell PowerScale"],
+        "aliases": ["Dell", "Dell EMC"],
+        "category": "Infrastructure"
+      },
+      {
+        "vendor": "Citrix",
+        "products": ["Citrix ADC", "NetScaler", "Citrix Virtual Apps", "Citrix Workspace"],
+        "aliases": ["Citrix Systems"],
+        "category": "Virtualization"
+      },
+      {
+        "vendor": "Oracle",
+        "products": ["Oracle Database", "Oracle Linux", "Oracle Cloud", "Oracle WebLogic"],
+        "aliases": ["Oracle Corporation", "Oracle DB"],
+        "category": "Database"
+      }
+    ],
+    "medical_devices": [
+      {
+        "vendor": "GE HealthCare",
+        "products": ["GE Centricity", "GE PACS", "GE Imaging", "GE Ultrasound", "GE MRI", "GE CT"],
+        "aliases": ["GE Healthcare", "GE Medical"],
+        "category": "Medical Imaging"
+      },
+      {
+        "vendor": "Philips",
+        "products": ["Philips IntelliSpace", "Philips Tasy", "Philips MRI", "Philips Ultrasound", "Philips Patient Monitor"],
+        "aliases": ["Philips Healthcare", "Royal Philips"],
+        "category": "Medical Imaging"
+      },
+      {
+        "vendor": "Siemens Healthineers",
+        "products": ["Siemens Syngo", "Siemens CT", "Siemens MRI", "Siemens Ultrasound", "Siemens Atellica"],
+        "aliases": ["Siemens Medical", "Siemens Healthcare"],
+        "category": "Medical Imaging"
+      },
+      {
+        "vendor": "Becton Dickinson",
+        "products": ["BD Pyxis", "BD Alaris", "BD HealthSight", "BD Kiestra"],
+        "aliases": ["BD", "Becton, Dickinson and Company"],
+        "category": "Medical Devices"
+      },
+      {
+        "vendor": "Mindray",
+        "products": ["Mindray Patient Monitor", "Mindray Ultrasound", "Mindray Anesthesia"],
+        "aliases": ["Mindray Medical"],
+        "category": "Medical Devices"
+      },
+      {
+        "vendor": "Masimo",
+        "products": ["Masimo Root", "Masimo SET", "Masimo Rainbow"],
+        "aliases": ["Masimo Corporation"],
+        "category": "Patient Monitoring"
+      },
+      {
+        "vendor": "Varian",
+        "products": ["Varian TrueBeam", "Varian Eclipse", "Varian Halcyon"],
+        "aliases": ["Varian Medical Systems"],
+        "category": "Radiation Oncology"
+      },
+      {
+        "vendor": "Hologic",
+        "products": ["Hologic Selenia", "Hologic 3Dimensions", "Hologic ThinPrep"],
+        "aliases": ["Hologic Inc"],
+        "category": "Diagnostic Imaging"
+      },
+      {
+        "vendor": "Medtronic",
+        "products": ["Medtronic CareLink", "Medtronic MiniMed", "Medtronic Valleylab"],
+        "aliases": ["Medtronic plc"],
+        "category": "Medical Devices"
+      },
+      {
+        "vendor": "Roche Diagnostics",
+        "products": ["Roche cobas", "Roche VENTANA", "Roche Accu-Chek"],
+        "aliases": ["Roche", "F. Hoffmann-La Roche"],
+        "category": "Diagnostics"
+      },
+      {
+        "vendor": "Abbott",
+        "products": ["Abbott FreeStyle", "Abbott Alinity", "Abbott i-STAT"],
+        "aliases": ["Abbott Laboratories"],
+        "category": "Diagnostics"
+      }
+    ],
+    "infrastructure": [
+      {
+        "vendor": "HP",
+        "products": ["HP LaserJet", "HP OfficeJet", "HP PageWide", "HP FutureSmart"],
+        "aliases": ["Hewlett-Packard", "HP Inc"],
+        "category": "Printers"
+      },
+      {
+        "vendor": "Konica Minolta",
+        "products": ["Konica Minolta bizhub", "Konica Minolta AccurioPress"],
+        "aliases": ["Konica Minolta Inc"],
+        "category": "Printers"
+      },
+      {
+        "vendor": "Honeywell",
+        "products": ["Honeywell Building Management", "Honeywell HVAC", "Honeywell Access Control"],
+        "aliases": ["Honeywell Building Technologies", "Honeywell International"],
+        "category": "Building Systems"
+      },
+      {
+        "vendor": "Imprivata",
+        "products": ["Imprivata OneSign", "Imprivata Confirm ID", "Imprivata Identity Governance"],
+        "aliases": ["Imprivata Inc"],
+        "category": "Identity & Access"
+      },
+      {
+        "vendor": "ZEISS Medical Technology",
+        "products": ["ZEISS OPMI", "ZEISS Cirrus", "ZEISS VisuMax"],
+        "aliases": ["Carl Zeiss Meditec", "ZEISS"],
+        "category": "Medical Technology"
+      }
+    ]
+  },
+  "intelligence_sources": [
+    {
+      "name": "CISA Current Activity",
+      "type": "CISA_CA",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "priority": "HIGH"
+    },
+    {
+      "name": "CISA Known Exploited Vulnerabilities",
+      "type": "CISA_KEV",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Infoblox Security RSS",
+      "type": "RSS",
+      "url": "https://community.infoblox.com/cixhp49439/rss/board?board.id=generalsecurity",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Dark Reading",
+      "type": "RSS",
+      "url": "https://www.darkreading.com/rss.xml",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Cisco Security Advisories",
+      "type": "RSS",
+      "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Rapid7 Blog",
+      "type": "RSS",
+      "url": "https://blog.rapid7.com/rss/",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Palo Alto Networks Security",
+      "type": "RSS",
+      "url": "https://security.paloaltonetworks.com/rss.xml",
+      "priority": "HIGH"
+    },
+    {
+      "name": "BleepingComputer",
+      "type": "RSS",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Epic Security",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.epic.com/epic/page/reporting-potential-security-vulnerability/",
+      "priority": "HIGH"
+    },
+    {
+      "name": "GE HealthCare Product Security",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.gehealthcare.com/productsecurity/products",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Philips Security Advisories",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.philips.com/a-w/security/security-advisories.html",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Siemens CERT",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.siemens.com/global/en/products/services/cert.html",
+      "priority": "HIGH"
+    },
+    {
+      "name": "BD Pyxis Security Patches",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.bd.com/en-us/about-bd/cybersecurity/patches/security-patches-bd-pyxis-products",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Mindray Cybersecurity Updates",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.mindray.com/na/solutions/hospitalwide-solution/cybersecurity/updates/",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Masimo Security",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.masimo.com/contact-support/globalservices/masimo-coordinated-vulnerability-disclosure-statement/",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Varian Cybersecurity",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://cancercare.siemens-healthineers.com/resources-support/cybersecurity-at-varian",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Hologic Cybersecurity",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Medtronic Security Bulletins",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.medtronic.com/en-us/e/product-security/security-bulletins.html",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Roche Product Security Advisory",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://diagnostics.roche.com/global/en/legal/product-security-advisory.html",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Abbott Cybersecurity",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.abbott.com/en-us/policies/cybersecurity.html",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Cisco Security Center",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Microsoft Security Update Guide",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://msrc.microsoft.com/update-guide",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Oracle Security Alerts",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.oracle.com/security-alerts/",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Dell Security Advisories",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.dell.com/support/kbdoc/en-us/000415586/dsa-2026-049-security-update-for-dell-powerscale-onefs-multiple-vulnerabilities",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Palo Alto Networks Security Portal",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://security.paloaltonetworks.com/",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Rapid7 Security",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.rapid7.com/security/",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Tenable Security",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.tenable.com/security",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Infoblox Vulnerability Disclosure",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.infoblox.com/company/legal/vulnerability-responsible-disclosure-policy/",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Citrix Security Bulletin",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://support.citrix.com/s/topic/0TO4z0000001GYdGAM/security-bulletin?language=en_US",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Honeywell Product Security",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.honeywell.com/us/en/product-security",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Imprivata Trust and Security",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.imprivata.com/company/trust-and-security",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "ZEISS Cybersecurity",
+      "type": "VENDOR_ADVISORY",
+      "url": "https://www.zeiss.com/meditec/en/service/cybersecurity-at-zeiss-medical-technology.html",
+      "priority": "MEDIUM"
+    }
+  ]
+}
